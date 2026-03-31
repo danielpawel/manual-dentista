@@ -414,6 +414,22 @@
 
   .instructor-photo-placeholder .photo-icon { font-size: 48px; opacity: 0.5; }
 
+  .instructor-photo-img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    display: block;
+  }
+
+  .instructor-cro {
+    font-size: 14px;
+    font-weight: 600;
+    color: var(--text-muted);
+    margin-top: 12px;
+    text-align: center;
+    letter-spacing: 0.5px;
+  }
+
   .instructor-info .section-label { text-align: left; }
   .instructor-info .section-title { text-align: left; margin: 0 0 24px; }
 
@@ -898,14 +914,12 @@
 <section class="instructor">
   <div class="instructor-inner">
     <div class="instructor-photo reveal">
-      <div class="instructor-photo-placeholder">
-        <span class="photo-icon">🦷</span>
-        <span>Foto do Instrutor</span>
-      </div>
+      <img src="assets/images/professor-luiz.jpg" alt="Dr. Luiz Gustavo Caetano" class="instructor-photo-img">
+      <p class="instructor-cro">CRO 135160</p>
     </div>
     <div class="instructor-info">
       <p class="section-label reveal">Quem vai te ensinar</p>
-      <h2 class="section-title reveal">Dr. <em>[Nome]</em>,<br>dentista e mentor</h2>
+      <h2 class="section-title reveal">Dr. <em>Luiz Gustavo Caetano</em>,<br>dentista e mentor</h2>
       <p class="instructor-bio reveal">
         Após anos atendendo e construindo uma carreira sólida, percebi que a maior dificuldade dos dentistas recém-formados não é técnica — é saber como funcionar no mercado real. Por isso criei o Manual do Dentista Recém-Formado: para te entregar em horas o que eu levei anos para aprender.
       </p>
